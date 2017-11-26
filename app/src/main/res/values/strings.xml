@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="therapeutic_header">Therapeutic</string>
+    <string name="action_header">Action</string>
+    <string name="drug_impacted_header">Drug Impacted</string>
+    <string name="clinical_interpretation_header">Clinical Interpretation</string>
+    <string name="gene_header">Gene</string>
+    <string name="genotype_header">Genotype</string>
+    <string name="phenotype_header">Phenotype</string>
+    <string name="login">Login</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search..</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_test">TEST</string>
+    <string name="title_activity_current_drug_interactions">TEST</string>
+
+    <string name="current_drug_interactions">Current Drug Interactions</string>
+    <string name="current_medication_information">Current Medication Information</string>
+    <string name="genotype_and_phenotype_results">Genotype and Phenotype Results</string>
+    <string name="patient_specific_drug_information">Patient Specific Drug Information</string>
+    <string name="view_full_report">View Full Report</string>
+    <string name="header_severity">Severity</string>
+    <string name="header_warning">Warning</string>
+    <string name="header_documentation">Documentation</string>
+    <string name="header_clinical_management">Clinical Management</string>
+    <string name="portable_patient_table">Portable Patient Table</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="app_name_with_index">Demo (%1$d/%2$d)</string>
+</resources>

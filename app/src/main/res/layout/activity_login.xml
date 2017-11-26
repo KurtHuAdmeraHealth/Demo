@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrew.demo.LoginActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/ivAdmeraHealthLogo"
+        android:layout_width="331dp"
+        android:layout_height="192dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/admera_logo" />
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Log In"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:autoText="false"
+        android:ems="10"
+        android:hint="Username"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivAdmeraHealthLogo" />
+
+    <ImageView
+        android:id="@+id/drop_down_arrow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editusername"
+        android:layout_alignRight="@+id/editusername"
+        android:layout_alignTop="@+id/editusername"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_arrow_drop_down_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editusername"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editusername" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editusername" />
+
+    <CheckBox
+        android:id="@+id/cbrememberme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:checked="true"
+        android:text="Remember Me Later"
+        app:layout_constraintLeft_toLeftOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+</android.support.constraint.ConstraintLayout>

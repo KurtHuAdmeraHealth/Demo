@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andrew.demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon_rounded"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".LaunchActivity" />
+        <activity
+            android:name=".PortablePatientTable"
+            android:parentActivityName=".PGxOnePlusMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".PGxOnePlusMenu"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CurrentDrugInteractions"
+            android:label="@string/title_activity_current_drug_interactions"
+            android:parentActivityName=".PGxOnePlusMenu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".PatientSpecificDrugInformation"
+            android:parentActivityName=".PGxOnePlusMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".CurrentMedicationInformation"
+            android:parentActivityName=".PGxOnePlusMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".GenotypeAndPhenotypeResults"
+            android:parentActivityName=".PGxOnePlusMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name=".LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactAdmeraActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutAdmeraActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UserInfoActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".PDFActivity"
+            android:parentActivityName=".PGxOnePlusMenu"/>
+    </application>
+
+</manifest>

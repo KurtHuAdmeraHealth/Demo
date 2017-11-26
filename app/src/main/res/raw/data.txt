@@ -1,0 +1,18 @@
+Therapeutic	Action	Drug Class	Drug Name	Clinical Interpretation	Gene	Genotype	Phenotype	Diagnostic Specific
+Anesthesiology	SLOW	Local Anesthetics	Lidocaine (Lidoderm?), Ropivacaine (Naropin?)	USE CAUTION due to the increased risk for loss of efficacy 	CYP1A2	*1F/*1F	Ultrarapid Metabolizer	FALSE
+Anesthesiology	GO	General Anesthetics	Ketamine (Ketalar?), Propofol (Diprivan?)	NORMAL RESPONSE EXPECTED	CYP2B6	*1/*1	Non G516T Homozygous/Non A785G Homozygous/Non T983C Homozygous	FALSE
+Anesthesiology	GO	Local Anesthetics	Lidocaine/Prilocaine (Emla?) 	NORMAL RESPONSE EXPECTED	G6PD	WT/WT	Normal G6PD Efficiency	FALSE
+Anesthesiology	GO	Sedatives	Dexmedetomidine (Precedex?)	NORMAL RESPONSE EXPECTED	ADRA2A	WT/WT	rs1800544 GG genotype/rs1800545 GG genotype	FALSE
+Cardiology	STOP	Antiarrhythmic Drugs	Amiodarone (Cordarone?), Dronedarone (Multaq?)	CONSIDER ALTERNATIVES	CYP3A4	*1B/*1B	Poor Metabolizer	FALSE
+Cardiology	STOP	Antiplatelets	Clopidogrel (Plavix?)	CONSIDER ALTERNATIVES (if no contraindication e.g., prasugrel, ticagrelor)	CYP2C19	*1/*2	Intermediate Metabolizer	TRUE
+Cardiology	STOP	Antiplatelets	Ticagrelor (Brilinta?)	CONSIDER ALTERNATIVES	CYP3A4	*1B/*1B	Poor Metabolizer	TRUE
+Cardiology	STOP	Miscellaneous Cardiovascular Agents	Ivabradine (Corlanor?)	CONSIDER ALTERNATIVES	CYP3A4	*1B/*1B	Poor Metabolizer	FALSE
+Cardiology	STOP DOWN	Antilipemic Agents (Statins)	Atorvastatin (Lipitor?)	CONSIDER ALTERNATIVES (e.g., pitavastatin, pravastatin, rosuvastatin) or DECREASE DOSE to lowest necessary dose daily due to Increased risk for myopathy and rhabdomyolysis 	CYP3A4	*1B/*1B	Poor Metabolizer	TRUE
+Cardiology	STOP DOWN	Antilipemic Agents (Statins)	Lovastatin (Mevacor?)	CONSIDER ALTERNATIVES (e.g., pitavastatin, pravastatin, rosuvastatin) or DECREASE DOSE to lowest necessary dose daily due to Increased risk for myopathy and rhabdomyolysis 	CYP3A4	*1B/*1B	Poor Metabolizer	TRUE
+Cardiology	STOP DOWN	Antilipemic Agents (Statins)	Simvastatin (Zocor?)	CONSIDER ALTERNATIVES (e.g., pitavastatin, pravastatin, rosuvastatin) or DECREASE DOSE to lowest necessary dose daily due to Increased risk for myopathy and rhabdomyolysis 	CYP3A4	*1B/*1B	Poor Metabolizer	TRUE
+Cardiology	DOWN	Anticoagulants	Warfarin (Coumadin?)	DECREASE DOSE Warfarin daily dose 3-4mg	CYP2C9	*1/*1	Normal Metabolizer	TRUE
+Cardiology	DOWN	Anticoagulants	Warfarin (Coumadin?)	DECREASE DOSE Warfarin daily dose 3-4mg	VKORC1	-1639G>A/-1639G>A	rs9923231 A Allele Carrier	TRUE
+Cardiology	DOWN	Phosphodiesterase Inhibitors	Cilostazol (Pletal?)	DECREASE DOSE by 50%	CYP3A4	*1B/*1B	Poor Metabolizer	FALSE
+Cardiology	UP	Anticoagulants	Phenprocoumon (Marcoumar?)	INCREASE DOSE	CYP4F2	*1/*3	Intermediate Metabolizer	TRUE
+Cardiology	SLOW	Anticoagulants	Rivaroxaban (Xarelto?)	USE CAUTION due to increased bleeding risk	CYP3A4	*1B/*1B	Poor Metabolizer	TRUE
+Cardiology	SLOW	Antilipemic Agents (Statins)	Rosuvastatin (Crestor?)	USE CAUTION due to impaired efficacy	CYP3A5	*1A/*1A	High Expresser	FALSE

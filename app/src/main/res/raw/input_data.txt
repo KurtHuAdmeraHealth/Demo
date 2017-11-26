@@ -1,0 +1,246 @@
+Therapeutic	Action	Drug Class	Drug Name	Clinical Interpretation	Gene	Genotype	Phenotype	Diagnostic Specific	CurrentMed	CMFlag
+Anesthesiology	STOP	Local Anesthetics	Lidocaine/Prilocaine (Emla?) 	CONSIDER ALTERNATIVES due to high susceptibility to drug-induced methemoglobinemia	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Lidocaine/Prilocaine (Emla?) 	FALSE
+Anesthesiology	DOWN	General Anesthetics	Ketamine (Ketalar?), Propofol (Diprivan?)	DECREASE DOSE due to decreased drug clearance	CYP2B6	G516T/G516T/A785G/A785G	G516T Homozygous/A785G Homozygous	FALSE	Ketamine (Ketalar?), Propofol (Diprivan?)	FALSE
+Anesthesiology	GO	Local Anesthetics	Lidocaine (Lidoderm?), Ropivacaine (Naropin?)	NORMAL RESPONSE EXPECTED	CYP1A2	*1A/*1F	Normal Metabolizer	FALSE	Lidocaine (Lidoderm?), Ropivacaine (Naropin?)	FALSE
+Anesthesiology	GO	Sedatives	Dexmedetomidine (Precedex?)	NORMAL RESPONSE EXPECTED	ADRA2A	WT/c.-1252G>C	rs1800544 GC genotype/rs1800545 GG genotype	FALSE	Dexmedetomidine (Precedex?)	FALSE
+Cardiology	UP	Anticoagulants	Phenprocoumon (Marcoumar?)	INCREASE DOSE	CYP4F2	*3/*3	Poor Metabolizer	FALSE	Phenprocoumon (Marcoumar?)	FALSE
+Cardiology	SLOW	ACE Inhibitors	Captopril (Capoten?), Perindopril (Aceon?)	USE CAUTION due to increased major cardiovascular events rate	AGTR1	WT/c.*86A>C	rs5186 AC genotype	FALSE	Captopril (Capoten?), Perindopril (Aceon?)	FALSE
+Cardiology	SLOW	ACE Inhibitors	Quinapril (Accupril?)	USE CAUTION due to reduced response 	ACE	WT/WT	ACE Deletion	FALSE	Captopril (Capoten?), Quinapril (Accupril?)	FALSE
+Cardiology	SLOW	Angiotensin II Receptor Blockers	Candesartan (Atacand?)	USE CAUTION due to reduced response	AGTR1	WT/c.*86A>C	rs5186 AC genotype	FALSE	Candesartan (Atacand?)	FALSE
+Cardiology	SLOW	Angiotensin II Receptor Blockers	Irbesartan (Avapro?)	USE CAUTION due to reduced response	ACE	WT/WT	ACE Deletion	FALSE	Irbesartan (Avapro?)	FALSE
+Cardiology	SLOW	Antiarrhythmic Drugs	Amiodarone (Cordarone?)	USE CAUTION due to increased risk of drug-induced ventricular arrhythmia and QT prolongation	NOS1AP	c.106-38510G>T/c.178-20044C>T/c.178-20044C>T	rs10494366 GT genotype/rs10800397 T Allele Carrier/rs10919035 C Allele Carrier	FALSE	Amiodarone (Cordarone?)	FALSE
+Cardiology	SLOW	Antiarrhythmic Drugs	Digoxin (Lanoxin?)	USE CAUTION due to increased risk of drug toxicity leading to adverse events	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Digoxin (Lanoxin?)	FALSE
+Cardiology	SLOW	Antilipemic Agents (Statins)	Atorvastatin (Lipitor?)	USE CAUTION due to higher risk of developing myalgia	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Atorvastatin (Lipitor?)	FALSE
+Cardiology	SLOW	Calcium Channel Blockers	Amlodipine (Norvasc?), Nifedipine (Adalat?)	USE CAUTION due to increased risk for QTc prolongation 	NOS1AP	c.106-38510G>T/c.178-20044C>T/c.178-20044C>T	rs10494366 GT genotype/rs10800397 T Allele Carrier/rs10919035 C Allele Carrier	FALSE	Amlodipine (Norvasc?), Nifedipine (Adalat?)	FALSE
+Cardiology	SLOW	Calcium Channel Blockers	Nitrendipine (Nitrepin?)	USE CAUTION due to reduced response	AGTR1	WT/c.*86A>C	rs5186 AC genotype	FALSE	Nitrendipine (Nitrepin?)	FALSE
+Cardiology	SLOW	Phosphodiesterase Inhibitors	Cilostazol (Pletal?)	USE CAUTION due to significant decrease in drug clearance	CYP3A5	*3A/*3A	Non Expresser	FALSE	Cilostazol (Pletal?)	FALSE
+Cardiology	GO	ACE Inhibitors	Benazepril (Lotensin?)	NORMAL RESPONSE EXPECTED	ACE	WT/WT	ACE Deletion	FALSE	Benazepril (Lotensin?), Perindopril (Aceon?)	FALSE
+Cardiology	GO	Angiotensin II Receptor Blockers	Losartan (Cozaar?)	NORMAL RESPONSE EXPECTED	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Losartan (Cozaar?)	FALSE
+Cardiology	GO	Angiotensin II Receptor Blockers	Losartan (Cozaar?)	NORMAL RESPONSE EXPECTED	AGTR1	WT/c.*86A>C	rs5186 AC genotype	FALSE	Losartan (Cozaar?)	FALSE
+Cardiology	GO	Antianginal Drugs	Ranolazine (Ranexa?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Ranolazine (Ranexa?)	FALSE
+Cardiology	GO	Antiarrhythmic Drugs	Dronedarone (Multaq?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Dronedarone (Multaq?)	FALSE
+Cardiology	GO	Antiarrhythmic Drugs	Flecainide (Tambocor?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Flecainide (Tambocor?)	FALSE
+Cardiology	GO	Antiarrhythmic Drugs	Propafenone (Rythmol?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Propafenone (Rythmol?)	FALSE
+Cardiology	GO	Anticoagulants	Rivaroxaban (Xarelto?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Rivaroxaban (Xarelto?)	FALSE
+Cardiology	GO	Anticoagulants	Warfarin (Coumadin?)	NORMAL DOSE Warfarin daily dose 5-7mg	CYP2C9	*1/*1	Normal Metabolizer	FALSE	Warfarin (Coumadin?)	FALSE
+Cardiology	GO	Anticoagulants	Warfarin (Coumadin?)	NORMAL DOSE Warfarin daily dose 5-7mg	VKORC1	WT/-1639G>A	rs9923231 A Allele Carrier	FALSE	Warfarin (Coumadin?)	FALSE
+Cardiology	GO	Antilipemic Agents (Statins)	Lovastatin (Mevacor?), Rosuvastatin (Crestor?)	NORMAL RESPONSE EXPECTED	CYP3A5	*3A/*3A	Non Expresser	FALSE	Atorvastatin (Lipitor?), Lovastatin (Mevacor?), Rosuvastatin (Crestor?)	FALSE
+Cardiology	GO	Antilipemic Agents (Statins)	Pitavastatin (Livalo?), Pravastatin (Pravachol?), Rosuvastatin (Crestor?)	NORMAL RESPONSE EXPECTED	SLCO1B1	*1/*1	Normal Activity	FALSE	Atorvastatin (Lipitor?), Pitavastatin (Livalo?), Pravastatin (Pravachol?), Rosuvastatin (Crestor?)	FALSE
+Cardiology	GO	Antilipemic Agents (Statins)	Pravastatin (Pravachol?)	NORMAL RESPONSE EXPECTED	KIF6	WT/c.2155T>C	rs20455 non-AA genotype	FALSE	Atorvastatin (Lipitor?), Pravastatin (Pravachol?)	FALSE
+					APOE	WT/WT	Non E2 Carrier	FALSE		FALSE
+Cardiology	GO	Antilipemic Agents (Statins)	Fluvastatin (Lescol?)	NORMAL RESPONSE EXPECTED	ACE	WT/WT	ACE Deletion	FALSE	Fluvastatin (Lescol?)	FALSE
+Cardiology	GO	Antilipemic Agents (Statins)	Simvastatin (Zocor?)	NORMAL RESPONSE EXPECTED	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Simvastatin (Zocor?)	FALSE
+Cardiology	GO	Antilipemic Agents (Statins)	Simvastatin (Zocor?)	NORMAL RESPONSE EXPECTED	SLCO1B1	*1/*1	Normal Activity	FALSE	Simvastatin (Zocor?)	FALSE
+Cardiology	GO	Antilipemic Agents	Fenofibrate (Tricor?)	NORMAL RESPONSE EXPECTED	APOE	WT/WT	Non E2 Carrier	FALSE	Fenofibrate (Tricor?)	FALSE
+Cardiology	GO	Antiplatelets	Clopidogrel (Plavix?)	NORMAL RESPONSE EXPECTED	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Clopidogrel (Plavix?)	FALSE
+Cardiology	GO	Antiplatelets	Ticagrelor (Brilinta?)	NORMAL RESPONSE EXPECTED	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Ticagrelor (Brilinta?)	FALSE
+Cardiology	GO	Beta Blockers	Atenolol (Tenormin?)	NORMAL RESPONSE EXPECTED	ADRA2A	WT/c.-1252G>C	rs1800544 GC genotype/rs1800545 GG genotype	FALSE	Atenolol (Tenormin?)	FALSE
+Cardiology	GO	Beta Blockers	Carvedilol (Coreg?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Carvedilol (Coreg?)	FALSE
+Cardiology	GO	Beta Blockers	Metoprolol (Lopressor?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Metoprolol (Lopressor?)	FALSE
+Cardiology	GO	Beta Blockers	Nebivolol (Bystolic?), Propranolol (Inderal LA?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Nebivolol (Bystolic?), Propranolol (Inderal LA?)	FALSE
+Cardiology	GO	Calcium Channel Blockers	Diltiazem (Cardizem?), Felodipine (Plendil?), Lercanidipine (Zanidip?), Nisoldipine (Sular?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Amlodipine (Norvasc?), Diltiazem (Cardizem?), Felodipine (Plendil?), Lercanidipine (Zanidip?), Nisoldipine (Sular?)	FALSE
+Cardiology	GO	Calcium Channel Blockers	Verapamil (Calan?)	NORMAL RESPONSE EXPECTED	NOS1AP	c.106-38510G>T/c.178-20044C>T/c.178-20044C>T	rs10494366 GT genotype/rs10800397 T Allele Carrier/rs10919035 C Allele Carrier	FALSE	Verapamil (Calan?)	FALSE
+Cardiology	GO	Diuretics	Bumetanide (Bumex?), Furosemide (Lasix?), Hydrochlorothiazide (Microzide?), Torsemide (Demadex?)	NORMAL RESPONSE EXPECTED	ACE	WT/WT	ACE Deletion	FALSE	Bumetanide (Bumex?), Furosemide (Lasix?), Hydrochlorothiazide (Microzide?), Torsemide (Demadex?)	FALSE
+Cardiology	GO	Diuretics	Hydrochlorothiazide (Microzide?)	NORMAL RESPONSE EXPECTED	AGTR1	WT/c.*86A>C	rs5186 AC genotype	FALSE	Hydrochlorothiazide (Microzide?)	FALSE
+Cardiology	GO	Diuretics	Spironolactone (Aldactone?)	NORMAL RESPONSE EXPECTED	ACE	WT/WT	ACE Deletion	FALSE	Spironolactone (Aldactone?)	FALSE
+Cardiology	GO	Miscellaneous Cardiovascular Agents	Ivabradine (Corlanor?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Ivabradine (Corlanor?)	FALSE
+Cardiology	GO	Vasodilators	Hydralazine	NORMAL RESPONSE EXPECTED	NAT2	*5/*5/*12/*12	Slow Acetylator	FALSE	Hydralazine	FALSE
+Cardiology	GO	Vasodilators	Nitroprusside (Nitropress?)	NORMAL RESPONSE EXPECTED	ACE	WT/WT	ACE Deletion	FALSE	Nitroprusside (Nitropress?)	FALSE
+Dentistry	GO	Cholinergic Agonists	Cevimeline (Evoxac?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Cevimeline (Evoxac?)	FALSE
+Endocrinology	STOP	Sulfonylureas	Chlorpropamide (Diabinese?), Glimepiride (Amaryl?), Glipizide (Glucotrol?), Glyburide (Glynase?), Tolbutamide	CONSIDER ALTERNATIVES	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Chlorpropamide (Diabinese?), Glimepiride (Amaryl?), Glipizide (Glucotrol?), Glyburide (Glynase?), Tolbutamide	FALSE
+Endocrinology	SLOW	Biguanides	Metformin (Glucophage?)	USE CAUTION due to decreased drug response	ATM	WT/c.175-5285G>T	rs11212617 AC genotype	FALSE	Metformin (Glucophage?)	FALSE
+Endocrinology	GO	Endocrine Enzyme Inhibitors	Eliglustat (Cerdelga?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Eliglustat (Cerdelga?)	FALSE
+Endocrinology	GO	Thiazolidinediones	Pioglitazone (Actos?)	NORMAL RESPONSE EXPECTED	CYP2C8	*1/*1	Wild Type	FALSE	Pioglitazone (Actos?)	FALSE
+Endocrinology	GO	Thiazolidinediones	Rosiglitazone (Avandia?)	NORMAL RESPONSE EXPECTED	CYP2C8	*1/*1	Wild Type	FALSE	Rosiglitazone (Avandia?)	FALSE
+Gastroenterology	UP	Proton Pump Inhibitors (PPIs)	Dexlansoprazole (Dexilant?), Esomeprazole (Nexium?), Lansoprazole (Prevacid?), Omeprazole (Prilosec?), Pantoprazole (Protonix?), Rabeprazole (Aciphex?)	INCREASE DOSE by 50-200% and then adjusted to achieve a favorable clinical response due to decreased efficacy	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Dexlansoprazole (Dexilant?), Esomeprazole (Nexium?), Lansoprazole (Prevacid?), Omeprazole (Prilosec?), Pantoprazole (Protonix?), Rabeprazole (Aciphex?)	FALSE
+Gastroenterology	SLOW	Osmotic Laxatives 	Ascorbic Acid (MoviPrep?)	USE CAUTION due to a risk of hemolytic anemia	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Ascorbic Acid (MoviPrep?)	FALSE
+Gastroenterology	GO	Histamine H2 Antagonists	Famotidine (Pepcid?)	NORMAL DOSE	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Famotidine (Pepcid?)	FALSE
+Gynecology	GO	Hormonal Contraceptives	Ethinyl Estradiol/Norelgestromin (Ortho Evra?)	NORMAL RESPONSE EXPECTED	F5	WT/WT	Non Factor V Leiden Carrier	FALSE	Ethinyl Estradiol/Norelgestromin (Ortho Evra?)	FALSE
+Gynecology	GO	Hormones	Oral-Contraceptive	NORMAL RESPONSE EXPECTED	F2	WT/WT	Wild Type	FALSE	Oral-Contraceptive	FALSE
+Gynecology	GO	Mixed 5-HT1A Agonist/5-HT2A Antagonist	Flibanserin (Addyi?)	NORMAL RESPONSE EXPECTED	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Flibanserin (Addyi?)	FALSE
+Hematology	GO	Colony Stimulating Factors	Eltrombopag (Promacta?)	NORMAL RESPONSE EXPECTED	F5	WT/WT	Non Factor V Leiden Carrier	FALSE	Eltrombopag (Promacta?)	FALSE
+Immunology	DOWN	Immunosuppressant Agents	Cyclosporine (Gengraf?), Sirolimus (Rapamune?)	DECREASE DOSE	CYP3A5	*3A/*3A	Non Expresser	FALSE	Cyclosporine (Gengraf?), Sirolimus (Rapamune?)	FALSE
+Immunology	SLOW	5-Aminosalicylic Acid Derivatives	Sulfasalazine (Azulfidine?)	USE CAUTION due to a risk of hemolytic anemia	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Sulfasalazine (Azulfidine?)	FALSE
+Immunology	SLOW	Urate-Oxidase (Recombinent)	Pegloticase (Krystexxa?)	USE CAUTION due to the risk of hemolysis and methemoglobinemia	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Pegloticase (Krystexxa?)	FALSE
+Immunology	SLOW	Uricosuric Agents	Probenecid	USE CAUTION due to the risk of hemolysis and methemoglobinemia	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Probenecid	FALSE
+Immunology	GO	Antirheumatic Immunosuppressants	Methotrexate (Trexall?)	NORMAL RESPONSE EXPECTED	ITPA	WT/WT	Non-protective Wild Type	FALSE	Methotrexate (Trexall?)	FALSE
+Immunology	GO	Immunosuppressant Agents	Tacrolimus (Prograf?)	NORMAL RESPONSE EXPECTED	CYP3A5	*3A/*3A	Non Expresser	FALSE	Tacrolimus (Prograf?)	FALSE
+Immunology	GO	Immunosuppressive Drugs	Azathioprine (Imuran?)	NORMAL RESPONSE EXPECTED	TPMT	*1/*1	Normal Metabolizer	FALSE	Azathioprine (Imuran?)	FALSE
+Immunology	GO	Systemic Corticosteroids	Methylprednisolone (Medrol?), Prednisolone (Orapred?), Prednisone (Deltasone?)	NORMAL RESPONSE EXPECTED	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	TRUE	Prednisone	TRUE
+Immunology	GO	Xanthine Oxidase Inhibitors	Allopurinol (Zyloprim?)	NORMAL RESPONSE EXPECTED	HLA-B	WT/WT	Wild Type	FALSE	Allopurinol (Zyloprim?)	FALSE
+Infectious Diseases	STOP	Antifungal Drugs	Voriconazole (Vfend?)	CONSIDER ALTERNATIVES (e.g., isavuconazole, liposomal amphotericin B, posaconazole)	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Voriconazole (Vfend?)	FALSE
+Infectious Diseases	STOP	Topical Antibiotics 	Mafenide (Sulfamylon?)	CONSIDER ALTERNATIVES due to reported fatal ADR cases 	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Mafenide (Sulfamylon?)	FALSE
+Infectious Diseases	DOWN	Macrolides	Erythromycin/Sulfisoxazole (Pediazole?)	DECREASE DOSE due to a risk of hemolytic anemia	G6PD	A-202A_376G/A	G6PD Deficiency	TRUE	Pediazole	TRUE
+Infectious Diseases	SLOW	Antihepaciviral Drugs	Boceprevir (Victrelis?), Peginterferon alfa-2b (PegIntron?), Ribavirin (Copegus?), Telaprevir (Incivo?)	USE CAUTION due to increased risk of ribavirin-induced hemolytic anemia	ITPA	WT/WT	Non-protective Wild Type	FALSE	Boceprevir (Victrelis?), Peginterferon alfa-2b (PegIntron?), Ribavirin (Copegus?), Telaprevir (Incivo?)	FALSE
+Infectious Diseases	SLOW	Antimalarial Drugs	Chloroquine (Aralen?), Primaquine Phosphate (Primaquine?), Quinine (Qualaquin?)	USE CAUTION due to high risk for hemolysis	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Chloroquine (Aralen?), Primaquine Phosphate (Primaquine?), Quinine (Qualaquin?)	FALSE
+Infectious Diseases	SLOW	Antiretroviral Drugs	Atazanavir (Reyataz?)	USE CAUTION due to low likelihood of drug discontinuation resulted from jaundice 	UGT1A1	*1/*28	Heterozygous *28 Allele Carrier	TRUE	Atazanavir (Reyataz?)	FALSE
+Infectious Diseases	SLOW	Antiretroviral Drugs	Efavirenz (Sustiva?), Nevirapine (Viramune?)	USE CAUTION due to higher potential for an increased frequency and severity of drug-associated adverse events	CYP2B6	G516T/G516T/A785G/A785G	G516T Homozygous/A785G Homozygous	TRUE	Efavirenz (Sustiva?), Nevirapine (Viramune?)	FALSE
+Infectious Diseases	SLOW	Antitubercular Agents	Ethambutol (Myambutol?), Isoniazid, Pyrazinamide (Rifater?), Rifampin (Rifadin?)	USE CAUTION due to increased risk of hepatotoxicity caused by decreased drug clearance	NAT2	*5/*5/*12/*12	Slow Acetylator	FALSE	Ethambutol (Myambutol?), Isoniazid, Pyrazinamide (Rifater?), Rifampin (Rifadin?)	FALSE
+Infectious Diseases	SLOW	Miscellaneous Antibiotics	Dapsone, Sulfamethoxazole/Trimethoprim (Bactrim?)	USE CAUTION due to an increased risk of hemolytic adverse reactions	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Dapsone, Sulfamethoxazole/Trimethoprim (Bactrim?)	FALSE
+Infectious Diseases	SLOW	Miscellaneous Antibiotics	Nalidixic Acid (Neggram?), Nitrofurantoin (Macrobid?)	USE CAUTION due to an association with hemolytic anemia	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Nalidixic Acid (Neggram?), Nitrofurantoin (Macrobid?)	FALSE
+Infectious Diseases	GO	Antihepaciviral Drugs	Ledipasvir/Sofosbuvir (Harvoni?)	NORMAL RESPONSE EXPECTED	IFNL3	WT/WT	Favorable Response Genotype	FALSE	Boceprevir (Victrelis?), Ledipasvir/Sofosbuvir (Harvoni?), Peginterferon alfa-2b (PegIntron?), Ribavirin (Copegus?), Telaprevir (Incivo?)	FALSE
+Infectious Diseases	GO	Antiretroviral Drugs	Abacavir (Ziagen?)	NORMAL RESPONSE EXPECTED	HLA-B	WT/WT	Wild Type	TRUE	Abacavir (Ziagen?)	FALSE
+Infectious Diseases	GO	Antiretroviral Drugs	Dolutegravir (Tivicay?)	NORMAL RESPONSE EXPECTED	UGT1A1	*1/*28	Heterozygous *28 Allele Carrier	TRUE	Dolutegravir (Tivicay?)	FALSE
+Infectious Diseases	GO	Antiretroviral Drugs	Lamivudine (Epivir?), Lopinavir/Ritonavir(Kaletra?), Zidovudine(Retrovir?)	NORMAL RESPONSE EXPECTED	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	TRUE	Lamivudine (Epivir?), Lopinavir/Ritonavir(Kaletra?), Zidovudine(Retrovir?)	FALSE
+Infectious Diseases	GO	Antiretroviral Drugs	Nelfinavir (Viracept?)	NORMAL RESPONSE EXPECTED	CYP2C19	*1/*17	Rapid Metabolizer	TRUE	Nelfinavir (Viracept?)	FALSE
+					ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE		FALSE
+Infectious Diseases	GO	Lipopeptides 	Daptomycin (Cubicin?)	NORMAL RESPONSE EXPECTED	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Daptomycin (Cubicin?)	FALSE
+Neurology	SLOW	COMT Inhibitors	Entacapone (Comtan?)	USE CAUTION due to decreased response	COMT	c.472G>A/c.472G>A	MET Homozygous	FALSE	Entacapone (Comtan?)	FALSE
+Neurology	GO	Acetylcholinesterase Inhibitors 	Donepezil (Aricept?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Donepezil (Aricept?)	FALSE
+Neurology	GO	Acetylcholinesterase Inhibitors 	Galantamine (Razadyne?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Galantamine (Razadyne?)	FALSE
+Neurology	GO	Alpha-2 Antagonist	Mirtazapine (Remeron?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Mirtazapine (Remeron?)	FALSE
+Neurology	GO	Anticonvulsant Drugs	Brivaracetam (Briviact?)	NORMAL RESPONSE EXPECTED	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Brivaracetam (Briviact?)	FALSE
+Neurology	GO	Anticonvulsant Drugs	Carbamazepine (Tegretol?), Lamotrigine (Lamictal?), Oxcarbazepine (Trileptal?), Phenytoin (Dilantin?), Topiramate (Topamax?)	NORMAL RESPONSE EXPECTED	SCN2A	WT/WT	rs2304016 non-GG genotype	FALSE	Carbamazepine (Tegretol?), Lamotrigine (Lamictal?), Oxcarbazepine (Trileptal?), Phenytoin (Dilantin?), Topiramate (Topamax?)	FALSE
+Neurology	GO	Anticonvulsant Drugs	Carbamazepine (Tegretol?), Phenytoin (Dilantin?)	NORMAL RESPONSE EXPECTED	HLA-B	WT/WT	Wild Type	FALSE	Carbamazepine (Tegretol?), Phenytoin (Dilantin?)	FALSE
+Neurology	GO	Anticonvulsant Drugs	Clobazam (Onfi?)	NORMAL RESPONSE EXPECTED	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Clobazam (Onfi?)	FALSE
+Neurology	GO	Anticonvulsant Drugs	Phenobarbital	NORMAL RESPONSE EXPECTED	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Phenobarbital	FALSE
+Neurology	GO	Antimigraine Agents	Eletriptan (Relpax?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Eletriptan (Relpax?)	FALSE
+Neurology	GO	Antimigraine Agents	Zolmitriptan (Zomig?)	NORMAL RESPONSE EXPECTED	CYP1A2	*1A/*1F	Normal Metabolizer	FALSE	Zolmitriptan (Zomig?)	FALSE
+Neurology	GO	Central Monoamine-Depleting Agents	Tetrabenazine (Xenazine?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Tetrabenazine (Xenazine?)	FALSE
+Neurology	GO	NMDA Receptor Antagonists	Dextromethorphan/Quinidine(Nuedexta?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Dextromethorphan/Quinidine(Nuedexta?)	FALSE
+Oncology	STOP	Urate-Oxidases (Recombinant)	Rasburicase (Elitek?)	CONSIDER ALTERNATIVES include allopurinol 	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Rasburicase (Elitek?)	FALSE
+Oncology	SLOW	Alkylating Agents	Cyclophosphamide (Cytoxan?)	USE CAUTION due to poorer response and increased risk of toxicity	MTHFR	C677T/C677T	C677T Homozygous Mutation	FALSE	Cyclophosphamide (Cytoxan?)	FALSE
+Oncology	SLOW	Antiemetics (Selective 5-HT3 Receptor Antagonist)	Dolasetron (Anzemet?), Granisetron (Sancuso?)	USE CAUTION due to increased risk for QTc interval prolongation	NOS1AP	c.106-38510G>T/c.178-20044C>T/c.178-20044C>T	rs10494366 GT genotype/rs10800397 T Allele Carrier/rs10919035 C Allele Carrier	FALSE	Dolasetron (Anzemet?), Granisetron (Sancuso?)	FALSE
+Oncology	SLOW	Antimetabolites (Pyrimidine Analog) 	Fluorouracil (Carac?)	USE CAUTION due to increased risk of diarrhea	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Fluorouracil (Carac?)	FALSE
+Oncology	SLOW	Antimetabolites (Pyrimidine Analog) 	Fluorouracil (Carac?)	USE CAUTION due to a highly increased risk of toxicity and poorer treatment outcome 	GSTP1	WT/WT	rs1695 AA genotype	FALSE	Fluorouracil (Carac?)	FALSE
+Oncology	SLOW	Antimetabolites (Pyrimidine Analog) 	Fluorouracil (Carac?)	USE CAUTION due to poorer response and increased risk of toxicity	MTHFR	C677T/C677T	C677T Homozygous Mutation	FALSE	Fluorouracil (Carac?)	FALSE
+Oncology	SLOW	Antimetabolites (Pyrimidine Analog) 	Fluorouracil (Carac?)	USE CAUTION due to increased risk of severe neutropenia	XRCC1	c.1196A>G/c.1196A>G	rs25487 C Allele Carrier	FALSE	Fluorouracil (Carac?)	FALSE
+Oncology	SLOW	BRAF Kinase Inhibitors	Dabrafenib (Tafinlar?) 	USE CAUTION by closely observing patients with G6PD deficiency for signs of hemolytic anemia	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Dabrafenib (Tafinlar?) 	FALSE
+Oncology	SLOW	Chemotherapy Modulating Agents	Leucovorin (Wellcovorin?)	USE CAUTION due to a highly increased risk of toxicity and poorer treatment outcome 	GSTP1	WT/WT	rs1695 AA genotype	FALSE	Leucovorin (Wellcovorin?)	FALSE
+Oncology	SLOW	Chemotherapy Modulating Agents	Leucovorin (Wellcovorin?)	USE CAUTION due to poorer response and increased risk of toxicity	MTHFR	C677T/C677T	C677T Homozygous Mutation	FALSE	Leucovorin (Wellcovorin?)	FALSE
+Oncology	SLOW	Chemotherapy Modulating Agents	Leucovorin (Wellcovorin?)	USE CAUTION due to increased risk of severe neutropenia	XRCC1	c.1196A>G/c.1196A>G	rs25487 C Allele Carrier	FALSE	Leucovorin (Wellcovorin?)	FALSE
+Oncology	SLOW	Folate Antimetabolites	Methotrexate (Trexall?)	USE CAUTION due to increased risk of toxicity caused by increased drug concentration	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Methotrexate (Trexall?)	FALSE
+Oncology	SLOW	Folate Antimetabolites	Methotrexate (Trexall?)	USE CAUTION due to poorer response and increased risk of toxicity	MTHFR	C677T/C677T	C677T Homozygous Mutation	FALSE	Methotrexate (Trexall?)	FALSE
+Oncology	SLOW	Folate Antimetabolites	Pemetrexed (Alimta?)	USE CAUTION due to poorer response and increased risk of toxicity	MTHFR	C677T/C677T	C677T Homozygous Mutation	FALSE	Pemetrexed (Alimta?)	FALSE
+Oncology	SLOW	Platinum Analog	Carboplatin (Paraplatin?), Cisplatin (Platinol?), Oxaliplatin (Eloxatin?)	USE CAUTION due to a highly increased risk of toxicity and poorer treatment outcome 	GSTP1	WT/WT	rs1695 AA genotype	FALSE	Carboplatin (Paraplatin?), Cisplatin (Platinol?), Oxaliplatin (Eloxatin?)	FALSE
+Oncology	SLOW	Platinum Analog	Carboplatin (Paraplatin?), Cisplatin (Platinol?), Oxaliplatin (Eloxatin?)	USE CAUTION due to increased risk of severe neutropenia	XRCC1	c.1196A>G/c.1196A>G	rs25487 C Allele Carrier	FALSE	Carboplatin (Paraplatin?), Cisplatin (Platinol?), Oxaliplatin (Eloxatin?)	FALSE
+Oncology	SLOW	Platinum Analog	Carboplatin (Paraplatin?), Oxaliplatin (Eloxatin?)	USE CAUTION due to poorer response and increased risk of toxicity	MTHFR	C677T/C677T	C677T Homozygous Mutation	FALSE	Carboplatin (Paraplatin?), Oxaliplatin (Eloxatin?)	FALSE
+Oncology	SLOW	Platinum Analog	Cisplatin (Platinol?)	USE CAUTION due to increased risk for nephrotoxicity or mucositis 	ERCC1	c.*197G>T/c.354T>C/c.354T>C/c.*931T>G	rs3212986 C Allele Carrier/rs11615 non-AA genotype/rs735482 non-AA genotype	FALSE	Cisplatin (Platinol?)	FALSE
+Oncology	SLOW	Taxane Derivatives	Docetaxel (Taxotere?)	USE CAUTION due to increased risk for nephrotoxicity or mucositis 	ERCC1	c.*197G>T/c.354T>C/c.354T>C/c.*931T>G	rs3212986 C Allele Carrier/rs11615 non-AA genotype/rs735482 non-AA genotype	FALSE	Docetaxel (Taxotere?)	FALSE
+Oncology	SLOW	Taxane Derivatives	Paclitaxel (Abraxane?)	USE CAUTION due to increased risk for nephrotoxicity or mucositis 	ERCC1	c.*197G>T/c.354T>C/c.354T>C/c.*931T>G	rs3212986 C Allele Carrier/rs11615 non-AA genotype/rs735482 non-AA genotype	FALSE	Paclitaxel (Abraxane?)	FALSE
+Oncology	SLOW	VEGF Tyrosine Kinase Inhibitors	Sorafenib (NexAvar?)	USE CAUTION due to increased risk of hyperbilirubinemia and treatment interruption	UGT1A1	*1/*28	Heterozygous *28 Allele Carrier	FALSE	Sorafenib (NexAvar?)	FALSE
+					GSTP1	WT/WT	rs1695 AA genotype	FALSE		FALSE
+					NQO1	WT/WT	rs1800566 non-AA genotype	FALSE		FALSE
+Oncology	GO	Anthracyclines	Doxorubicin (Doxil?)	NORMAL RESPONSE EXPECTED	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Doxorubicin (Doxil?)	FALSE
+Oncology	GO	Anthracyclines	Doxorubicin (Doxil?)	NORMAL RESPONSE EXPECTED	NQO1	WT/WT	rs1800566 non-AA genotype	FALSE	Doxorubicin (Doxil?)	FALSE
+Oncology	GO	Anthracyclines	Epirubicin (Ellence?)	NORMAL RESPONSE EXPECTED	GSTP1	WT/WT	rs1695 AA genotype	FALSE	Epirubicin (Ellence?)	FALSE
+Oncology	GO	Anthracyclines	Epirubicin (Ellence?)	NORMAL RESPONSE EXPECTED	NQO1	WT/WT	rs1800566 non-AA genotype	FALSE	Epirubicin (Ellence?)	FALSE
+					CYP2D6	*1/*9	Normal Metabolizer	FALSE		FALSE
+Oncology	GO	Antiemetics (Selective 5-HT3 Receptor Antagonist)	Ondansetron (Zofran?)	NORMAL RESPONSE EXPECTED	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Ondansetron (Zofran?)	FALSE
+Oncology	GO	Antiemetics (Selective 5-HT3 Receptor Antagonist)	Ondansetron (Zofran?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Ondansetron (Zofran?)	FALSE
+Oncology	GO	Antiemetics (Selective 5-HT3 Receptor Antagonist)	Palonosetron (Aloxi?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Palonosetron (Aloxi?)	FALSE
+Oncology	GO	Antiemetics	Dexamethasone (Decadron?)	NORMAL RESPONSE EXPECTED	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Dexamethasone (Decadron?)	FALSE
+Oncology	GO	Antiemetics	Dronabinol (Marinol?)	NORMAL RESPONSE EXPECTED	CYP2C9	*1/*1	Normal Metabolizer	FALSE	Dronabinol (Marinol?)	FALSE
+Oncology	GO	Antimetabolites (Purine Analog)	Mercaptopurine (Purinethol?), Thioguanine (Tabloid?)	NORMAL RESPONSE EXPECTED	TPMT	*1/*1	Normal Metabolizer	FALSE	Mercaptopurine (Purinethol?), Thioguanine (Tabloid?)	FALSE
+Oncology	GO	Antimetabolites (Pyrimidine Analog) 	Capecitabine (Xeloda?), Pyrimidinedione (Tegafur-Uracil?)	NORMAL RESPONSE EXPECTED	DPYD	*4/*5	Normal Metabolizer	FALSE	Capecitabine (Xeloda?), Fluorouracil (Carac?), Pyrimidinedione (Tegafur-Uracil?)	FALSE
+Oncology	GO	Antimetabolites (Pyrimidine Analog) 	Cytarabine (Depocyt?)	NORMAL RESPONSE EXPECTED	CDA	WT/WT	rs532545 C Allele	FALSE	Cytarabine (Depocyt?)	FALSE
+					ERCC1	c.*197G>T/c.354T>C/c.354T>C/c.*931T>G	rs3212986 C Allele Carrier/rs11615 non-AA genotype/rs735482 non-AA genotype	FALSE		FALSE
+					NQO1	WT/WT	rs1800566 non-AA genotype	FALSE		FALSE
+Oncology	GO	BCR-ABL Tyrosine Kinase Inhibitors	Nilotinib (Tasigna?), Pazopanib (Votrient?)	NORMAL RESPONSE EXPECTED	UGT1A1	*1/*28	Heterozygous *28 Allele Carrier	FALSE	Nilotinib (Tasigna?), Pazopanib (Votrient?)	FALSE
+					ERCC1	c.*197G>T/c.354T>C/c.354T>C/c.*931T>G	rs3212986 C Allele Carrier/rs11615 non-AA genotype/rs735482 non-AA genotype	FALSE		FALSE
+Oncology	GO	EGFR Tyrosine Kinase Inhibitors	Erlotinib (Tarceva?)	NORMAL RESPONSE EXPECTED	UGT1A1	*1/*28	Heterozygous *28 Allele Carrier	FALSE	Erlotinib (Tarceva?)	FALSE
+Oncology	GO	EGFR Tyrosine Kinase Inhibitors	Gefitinib (Iressa?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Gefitinib (Iressa?)	FALSE
+Oncology	GO	EGFR Tyrosine Kinase Inhibitors	Ruxolitinib (Jakavi?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Ruxolitinib (Jakavi?)	FALSE
+Oncology	GO	Histone Deacetylase (HDAC) Inhibitors	Belinostat (Beleodaq?)	NORMAL RESPONSE EXPECTED	UGT1A1	*1/*28	Heterozygous *28 Allele Carrier	FALSE	Belinostat (Beleodaq?)	FALSE
+Oncology	GO	Immunomodulators	Thalidomide (Thalomid?)	NORMAL RESPONSE EXPECTED	ERCC1	c.*197G>T/c.354T>C/c.354T>C/c.*931T>G	rs3212986 C Allele Carrier/rs11615 non-AA genotype/rs735482 non-AA genotype	FALSE	Thalidomide (Thalomid?)	FALSE
+					ERCC1	c.*197G>T/c.354T>C/c.354T>C/c.*931T>G	rs3212986 C Allele Carrier/rs11615 non-AA genotype/rs735482 non-AA genotype	FALSE		FALSE
+					NQO1	WT/WT	rs1800566 non-AA genotype	FALSE		FALSE
+Oncology	GO	Selective Estrogen Receptor Modulators (SERM)	Tamoxifen (Soltamox?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Tamoxifen (Soltamox?)	FALSE
+Oncology	GO	Selective Estrogen Receptor Modulators (SERM)	Tamoxifen (Soltamox?)	NORMAL RESPONSE EXPECTED	F2	WT/WT	Wild Type	FALSE	Tamoxifen (Soltamox?)	FALSE
+Oncology	GO	Taxane Derivatives	Cabazitaxel (Jevtana?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Cabazitaxel (Jevtana?)	FALSE
+					ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE		FALSE
+Oncology	GO	Topoisomerase I Inhibitors	Irinotecan (Camptosar?) 	NORMAL RESPONSE EXPECTED	UGT1A1	*1/*28	Heterozygous *28 Allele Carrier	FALSE	Irinotecan (Camptosar?) 	FALSE
+Oncology	GO	Topoisomerase II Inhibitor	Idarubicin (Idamycin?)	NORMAL RESPONSE EXPECTED	SLCO1B1	*1/*1	Normal Activity	FALSE	Idarubicin (Idamycin?)	FALSE
+Oncology	GO	VEGF Tyrosine Kinase Inhibitors	Sunitinib (Sutent?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Sunitinib (Sutent?)	FALSE
+Oncology	GO	Vinca Alkaloids	Vincristine (Marqibo?)	NORMAL RESPONSE EXPECTED	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Vincristine (Marqibo?)	FALSE
+Pain Management	DOWN	Opioids	Methadone (Methadose?)	DECREASE DOSE	CYP2B6	G516T/G516T/A785G/A785G	G516T Homozygous/A785G Homozygous	FALSE	Methadone (Methadose?)	FALSE
+					OPRM1	WT/WT	rs1799971 A Allele Carrier/rs510679 TT genotype	FALSE		FALSE
+Pain Management	GO	Alpha-2 Adrenergic Agonists	Tizanidine (Zanaflex?)	NORMAL RESPONSE EXPECTED	CYP1A2	*1A/*1F	Normal Metabolizer	FALSE	Tizanidine (Zanaflex?)	FALSE
+Pain Management	GO	Nonsteroidal Antiinflammatory Drugs (NSAIDs)	Celecoxib (Celebrex?), Diclofenac (Voltaren?), Meloxicam (Mobic?) 	NORMAL RESPONSE EXPECTED	CYP2C9	*1/*1	Normal Metabolizer	FALSE	Celecoxib (Celebrex?), Diclofenac (Voltaren?), Meloxicam (Mobic?) 	FALSE
+Pain Management	GO	Nonsteroidal Antiinflammatory Drugs (NSAIDs)	Ibuprofen (Advil?), Naproxen (Aleve?)	NORMAL RESPONSE EXPECTED	CYP2C9	*1/*1	Normal Metabolizer	TRUE	Ibuprofen	TRUE
+Pain Management	GO	Opioids	Alfentanil (Alfenta?), Fentanyl (Duragesic?), Hydromorphone (Dilaudid?), Morphine (MS Contin?)	NORMAL RESPONSE EXPECTED	OPRM1	WT/WT	rs1799971 A Allele Carrier/rs510679 TT genotype	FALSE	Alfentanil (Alfenta?), Fentanyl (Duragesic?), Hydromorphone (Dilaudid?), Morphine (MS Contin?)	FALSE
+Pain Management	GO	Opioids	Buprenorphine (Subutex?), Fentanyl (Duragesic?), Hydrocodone/Acetaminophen (Vicodin?), Oxycodone (Oxycontin?), Sufentanil (Sufenta?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Buprenorphine (Subutex?), Fentanyl (Duragesic?), Hydrocodone/Acetaminophen (Vicodin?), Methadone (Methadose?), Oxycodone (Oxycontin?), Sufentanil (Sufenta?)	FALSE
+Pain Management	GO	Opioids	Codeine (Codeine?), Codeine/Acetaminophen (Tylenol #3 & #4?), Hydrocodone/Acetaminophen (Vicodin?), Oxycodone (Oxycontin?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Codeine (Codeine?), Codeine/Acetaminophen (Tylenol #3 & #4?), Hydrocodone/Acetaminophen (Vicodin?), Oxycodone (Oxycontin?)	FALSE
+Pain Management	GO	Opioids	Hydrocodone/Acetaminophen (Vicodin?)	NORMAL RESPONSE EXPECTED	OPRM1	WT/WT	rs1799971 A Allele Carrier/rs510679 TT genotype	FALSE	Hydrocodone/Acetaminophen (Vicodin?)	FALSE
+					DRD2	WT/WT	rs1799978 TT genotype	FALSE		FALSE
+Pain Management	GO	Opioids	Tramadol Hydrochloride/Acetaminophen (Ultracet?), Tramadol (Ultram?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Tramadol Hydrochloride/Acetaminophen (Ultracet?), Tramadol (Ultram?)	FALSE
+Pain Management	GO	Skeletal Muscle Relaxants	Carisoprodol (Soma?)	NORMAL RESPONSE EXPECTED	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Carisoprodol (Soma?)	FALSE
+Pain Management	GO	Skeletal Muscle Relaxants	Cyclobenzaprine (Flexeril?)	NORMAL RESPONSE EXPECTED	CYP1A2	*1A/*1F	Normal Metabolizer	FALSE	Cyclobenzaprine (Flexeril?)	FALSE
+Psychiatry	STOP	Selective Serotonin Reuptake Inhibitors (SSRIs)	Sertraline (Zoloft?)	CONSIDER ALTERNATIVES for non-responders	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Sertraline (Zoloft?)	FALSE
+Psychiatry	STOP	Tricyclic Antidepressants	Amitriptyline (Elavil?), Clomipramine (Anafranil?), Desipramine (Norpramin?), Doxepin (Silenor?), Imipramine (Tofranil?), Nortriptyline (Pamelor?), Protriptyline (Vivactil?), Trimipramine (Surmontil?)	CONSIDER ALTERNATIVES	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Amitriptyline (Elavil?), Clomipramine (Anafranil?), Desipramine (Norpramin?), Doxepin (Silenor?), Imipramine (Tofranil?), Nortriptyline (Pamelor?), Protriptyline (Vivactil?), Trimipramine (Surmontil?)	FALSE
+Psychiatry	STOP UP	Selective Serotonin Reuptake Inhibitors (SSRIs)	Citalopram (Celexa?), Escitalopram (Lexapro?)	CONSIDER ALTERNATIVES or INCREASE DOSE by 150% in response to efficacy and adverse drug event	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Citalopram (Celexa?), Escitalopram (Lexapro?)	FALSE
+Psychiatry	SLOW	Antimanic Agents	Lithium (Lithobid?) 	USE CAUTION due to increased risk of suicidal ideation	ABCB1	WT/WT	rs2032582 AA genotype/rs1045642 AA genotype	FALSE	Lithium (Lithobid?) 	FALSE
+Psychiatry	SLOW	Antipsychotics	Chlorpromazine, Fluphenazine	USE CAUTION due to possible increased QT interval	CYP1A2	*1A/*1F	Normal Metabolizer	FALSE	Chlorpromazine, Fluphenazine	FALSE
+Psychiatry	SLOW	Antipsychotics	Clozapine (Clozaril?)	USE CAUTION due to increased risk of developing metabolic syndrome 	HTR2C	c.-759C>T/c.-759C>T/c.551-3008C>G/c.551-3008C>G	rs1414334 C Allele Carrier	FALSE	Clozapine (Clozaril?)	FALSE
+Psychiatry	SLOW	Antipsychotics	Olanzapine (Zyprexa?), Quetiapine (Seroquel?)	USE CAUTION due to increased risk of side effects 	SLC6A4	LA/LG	HTTLPR Long Form	FALSE	Olanzapine (Zyprexa?), Quetiapine (Seroquel?)	FALSE
+Psychiatry	SLOW	Antipsychotics	Olanzapine (Zyprexa?)	USE CAUTION due to increased risk of developing metabolic syndrome 	HTR2C	c.-759C>T/c.-759C>T/c.551-3008C>G/c.551-3008C>G	rs1414334 C Allele Carrier	FALSE	Olanzapine (Zyprexa?)	FALSE
+Psychiatry	SLOW	Antipsychotics	Risperidone (Risperdal?)	USE CAUTION due to increased risk of developing metabolic syndrome 	HTR2C	c.-759C>T/c.-759C>T/c.551-3008C>G/c.551-3008C>G	rs1414334 C Allele Carrier	FALSE	Risperidone (Risperdal?)	FALSE
+Psychiatry	SLOW	Antipsychotics	Risperidone (Risperdal?)	USE CAUTION due to increased risk of side effects 	SLC6A4	LA/LG	HTTLPR Long Form	FALSE	Risperidone (Risperdal?)	FALSE
+Psychiatry	SLOW	Benzodiazepines	Diazepam (Valium?)	USE CAUTION due to decreased drug response	CYP2C19	*1/*17	Rapid Metabolizer	FALSE	Diazepam (Valium?)	FALSE
+Psychiatry	SLOW	Benzodiazepines	Midazolam (Versed?)	USE CAUTION due to increased risk of side effects caused by decreased clearance of drug	CYP3A5	*3A/*3A	Non Expresser	FALSE	Midazolam (Versed?)	FALSE
+Psychiatry	SLOW	CNS Stimulants (ADHD)	Amphetamine (Adderall?), Dexmethylphenidate (Focalin?), Dextroamphetamine (Adderall?), Lisdexamfetamine (Vyvanse?), Methylphenidate (Ritalin?)	USE CAUTION due to reduced response 	COMT	c.472G>A/c.472G>A	MET Homozygous	TRUE	Adderall	TRUE
+Psychiatry	SLOW	Dopamine/Norepinephrine-Reuptake Inhibitors	Bupropion (Wellbutrin?)	USE CAUTION due to reduced response and increased risk of side effects	CYP2B6	G516T/G516T/A785G/A785G	G516T Homozygous/A785G Homozygous	FALSE	Bupropion (Wellbutrin?)	FALSE
+Psychiatry	SLOW	Other Stimulants	Cannabinoids	USE CAUTION due to increased risk of tetrahydrocannabinol (THC) dependence	FAAH	WT/WT	rs324420 CC genotype	FALSE	Cannabinoids	FALSE
+Psychiatry	SLOW	Other Stimulants	Cocaine	USE CAUTION due to increased risk of cocaine dependence 	CNR1	WT/WT	rs806368 TT genotype	FALSE	Cocaine	FALSE
+					GRIK4	WT/c.83-10039T>C	rs1954787 T Allele Carrier	FALSE		FALSE
+Psychiatry	GO	Aldehyde Dehydrogenase Inhibitors	Disulfiram (Antabuse?)	NORMAL RESPONSE EXPECTED	ANKK1	WT/WT	Non A1 Carrier	FALSE	Disulfiram (Antabuse?)	FALSE
+Psychiatry	GO	Anti-Anxiety Agents	Buspirone (Buspar?)	NORMAL RESPONSE EXPECTED	HTR1A	WT/c.-1019G>C	rs6295 non-CC genotype/rs1800044 C Allele Carrier	FALSE	Buspirone (Buspar?)	FALSE
+Psychiatry	GO	Antipsychotics	Aripiprazole (Abilify?), Brexpiprazole (Rexulti?), Iloperidone (Fanapt?), Pimozide (Orap?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Aripiprazole (Abilify?), Brexpiprazole (Rexulti?), Iloperidone (Fanapt?), Pimozide (Orap?)	FALSE
+Psychiatry	GO	Antipsychotics	Aripiprazole (Abilify?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Aripiprazole (Abilify?)	FALSE
+					ANKK1	WT/WT	Non A1 Carrier	FALSE		FALSE
+					CYP1A2	*1A/*1F	Normal Metabolizer	FALSE		FALSE
+					CYP2D6	*1/*9	Normal Metabolizer	FALSE		FALSE
+Psychiatry	GO	Antipsychotics	Haloperidol (Haldol?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Haloperidol (Haldol?)	FALSE
+					ANKK1	WT/WT	Non A1 Carrier	FALSE		FALSE
+					CYP1A2	*1A/*1F	Normal Metabolizer	FALSE		FALSE
+Psychiatry	GO	Antipsychotics	Perphenazine	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Perphenazine	FALSE
+					FAAH	WT/WT	rs324420 CC genotype	FALSE		FALSE
+					ANKK1	WT/WT	Non A1 Carrier	FALSE		FALSE
+					CYP2D6	*1/*9	Normal Metabolizer	FALSE		FALSE
+					DRD2	WT/WT	rs1799978 TT genotype	FALSE		FALSE
+Psychiatry	GO	Antipsychotics	Thioridazine (Mellaril?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Thioridazine (Mellaril?)	FALSE
+Psychiatry	GO	Antipsychotics	Valproic acid (Depakote?) 	NORMAL RESPONSE EXPECTED	ANKK1	WT/WT	Non A1 Carrier	FALSE	Valproic acid (Depakote?) 	FALSE
+Psychiatry	GO	Benzodiazepines	Alprazolam (Xanax?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Alprazolam (Xanax?)	FALSE
+Psychiatry	GO	Benzodiazepines	Lorazepam (Ativan?), Oxazepam (Serax?)	NORMAL RESPONSE EXPECTED	UGT2B15	*1/*2	rs1902023 non-AA genotype	FALSE	Lorazepam (Ativan?), Oxazepam (Serax?)	FALSE
+					OPRM1	WT/WT	rs1799971 A Allele Carrier/rs510679 TT genotype	FALSE		FALSE
+					DRD1	WT/c.-48G>A	rs4532 non-CC genotype	FALSE		FALSE
+Psychiatry	GO	CNS Stimulants (ADHD)	Methamphetamine (Desoxyn?)	NORMAL RESPONSE EXPECTED	FAAH	WT/WT	rs324420 CC genotype	FALSE	Methamphetamine (Desoxyn?)	FALSE
+					CES1	WT/WT	rs71647871 C Allele	FALSE		FALSE
+					CYP2C19	*1/*17	Rapid Metabolizer	FALSE		FALSE
+Psychiatry	GO	Opioids Antagonists	Naloxone (Evzio?), Naltrexone (Revia?)	NORMAL RESPONSE EXPECTED	OPRM1	WT/WT	rs1799971 A Allele Carrier/rs510679 TT genotype	FALSE	Naloxone (Evzio?), Naltrexone (Revia?)	FALSE
+					SLC6A4	LA/LG	HTTLPR Long Form	FALSE		FALSE
+					HTR2A	WT/c.614-2211T>C	rs7997012 non-GG genotype	FALSE		FALSE
+Psychiatry	GO	Selective Serotonin Reuptake Inhibitors (SSRIs)	Fluoxetine (Prozac?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Fluoxetine (Prozac?)	FALSE
+Psychiatry	GO	Selective Serotonin Reuptake Inhibitors (SSRIs)	Fluvoxamine (Luvox?), Paroxetine (Paxil?)	NORMAL RESPONSE EXPECTED	HTR1A	WT/c.-1019G>C	rs6295 non-CC genotype/rs1800044 C Allele Carrier	FALSE	Fluvoxamine (Luvox?), Paroxetine (Paxil?), Sertraline (Zoloft?)	FALSE
+Psychiatry	GO	Selective Serotonin Reuptake Inhibitors (SSRIs)	Fluvoxamine (Luvox?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Fluvoxamine (Luvox?)	FALSE
+Psychiatry	GO	Selective Serotonin Reuptake Inhibitors (SSRIs)	Paroxetine (Paxil?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Paroxetine (Paxil?)	FALSE
+Psychiatry	GO	Selective Serotonin Reuptake Inhibitors (SSRIs)	Vilazodone (Viibryd?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Vilazodone (Viibryd?)	FALSE
+Psychiatry	GO	Selective Serotonin Reuptake Inhibitors (SSRIs)	Vortioxetine (Trintellix?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Vortioxetine (Trintellix?)	FALSE
+Psychiatry	GO	Serotonin and Norepinephrine Reuptake Inhibitors (SNRIs)	Atomoxetine (Strattera?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Atomoxetine (Strattera?)	FALSE
+Psychiatry	GO	Serotonin and Norepinephrine Reuptake Inhibitors (SNRIs)	Duloxetine (Cymbalta?)	NORMAL RESPONSE EXPECTED	CYP1A2	*1A/*1F	Normal Metabolizer	FALSE	Duloxetine (Cymbalta?)	FALSE
+Psychiatry	GO	Serotonin and Norepinephrine Reuptake Inhibitors (SNRIs)	Levomilnacipran (Fetzima?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Levomilnacipran (Fetzima?)	FALSE
+Psychiatry	GO	Serotonin and Norepinephrine Reuptake Inhibitors (SNRIs)	Milnacipran (Savella?)	NORMAL RESPONSE EXPECTED	ADRA2A	WT/c.-1252G>C	rs1800544 GC genotype/rs1800545 GG genotype	FALSE	Milnacipran (Savella?)	FALSE
+Psychiatry	GO	Serotonin and Norepinephrine Reuptake Inhibitors (SNRIs)	Milnacipran (Savella?)	NORMAL RESPONSE EXPECTED	HTR1A	WT/c.-1019G>C	rs6295 non-CC genotype/rs1800044 C Allele Carrier	FALSE	Milnacipran (Savella?)	FALSE
+Psychiatry	GO	Serotonin and Norepinephrine Reuptake Inhibitors (SNRIs)	Reboxetine (Edronax?), Trazodone (Desyrel?) 	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Reboxetine (Edronax?), Trazodone (Desyrel?) 	FALSE
+Psychiatry	GO	Serotonin and Norepinephrine Reuptake Inhibitors (SNRIs)	Venlafaxine (Effexor?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Venlafaxine (Effexor?)	FALSE
+Psychiatry	GO	Tetracyclic Antidepressants	Maprotiline	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Maprotiline	FALSE
+					CYP2D6	*1/*9	Normal Metabolizer	FALSE		FALSE
+Rheumatology	SLOW	Selective Estrogen Receptor Modulators (SERMs)	Raloxifene (Evista?)	USE CAUTION due to decreased hip bone mineral density	UGT1A1	*1/*28	Heterozygous *28 Allele Carrier	FALSE	Raloxifene (Evista?)	FALSE
+Rheumatology	GO	Antigout Agents	Lesinurad (Zurampic?)	NORMAL RESPONSE EXPECTED	CYP2C9	*1/*1	Normal Metabolizer	FALSE	Lesinurad (Zurampic?)	FALSE
+Rheumatology	GO	Nonsteroidal Anti-inflammatory Drugs (NSAIDs)	Piroxicam (Feldene?)	NORMAL RESPONSE EXPECTED	CYP2C9	*1/*1	Normal Metabolizer	FALSE	Piroxicam (Feldene?)	FALSE
+Rheumatology	GO	Nonsteroidal Antiinflammatory Drugs (NSAIDs)	Flurbiprofen (Ansaid?)	NORMAL RESPONSE EXPECTED	CYP2C9	*1/*1	Normal Metabolizer	FALSE	Flurbiprofen (Ansaid?)	FALSE
+Smoking Cessation	GO	Smoking Cessation Aids	Bupropion (Zyban?)	NORMAL RESPONSE EXPECTED	ANKK1	WT/WT	Non A1 Carrier	FALSE	Bupropion (Zyban?)	FALSE
+Smoking Cessation	GO	Smoking Cessation Aids	Nicotine (Nicoderm?)	NORMAL DOSE may have an increased likelihood of smoking cessation and decreased risk of relapse 	COMT	c.472G>A/c.472G>A	MET Homozygous	FALSE	Nicotine (Nicoderm?)	FALSE
+Supplements 	STOP	Vitamins	Folic Acid	CONSIDER ALTERNATIVES (e.g., supplements containing methylfolate) due to significantly reduced folic acid conversion	MTHFR	C677T/C677T	C677T Homozygous Mutation	TRUE	Folic Acid	TRUE
+Toxicology	STOP	Antidotes	Sodium Nitrite 	CONSIDER ALTERNATIVES	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Sodium Nitrite 	FALSE
+Toxicology	SLOW	Antidotes	Methylene Blue (Provayblue?)	USE CAUTION due to risk of hemolytic anemia	G6PD	A-202A_376G/A	G6PD Deficiency	FALSE	Methylene Blue (Provayblue?)	FALSE
+Toxicology	GO	Antidotes	Ethanol	NORMAL RESPONSE EXPECTED	ANKK1	WT/WT	Non A1 Carrier	FALSE	Ethanol	FALSE
+Toxicology	GO	Antidotes	Ethanol	NORMAL RESPONSE EXPECTED	OPRM1	WT/WT	rs1799971 A Allele Carrier/rs510679 TT genotype	FALSE	Ethanol	FALSE
+Urology	GO	Alpha 1 Blockers	Dutasteride/Tamsulosin (Jalyn?), Tamsulosin (Flomax?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Dutasteride/Tamsulosin (Jalyn?), Tamsulosin (Flomax?)	FALSE
+Urology	GO	Alpha 1 Blockers	Silodosin (Rapaflo?)	NORMAL RESPONSE EXPECTED	CYP3A4	*1A/*1A	Normal Metabolizer	FALSE	Silodosin (Rapaflo?)	FALSE
+Urology	GO	Anticholinergic Agents	Darifenacin (Enablex?), Fesoterodine (Toviaz?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Darifenacin (Enablex?), Fesoterodine (Toviaz?)	FALSE
+Urology	GO	Anticholinergic Agents	Tolterodine (Detrol?)	NORMAL RESPONSE EXPECTED	CYP2D6	*1/*9	Normal Metabolizer	FALSE	Tolterodine (Detrol?)	FALSE
+ZNA	PGNA	Antibiotics	Clindamycin	CLINICAL INTERPRETATION NOT AVAILABLE	NA	NA	NA	FALSE	Clindamycin	TRUE
+ZNA	PGNA	Vitamins	Multivitamins	PHARMACOGENOMICS EVIDENCE NOT AVAILABLE	NA	NA	NA	FALSE	Multivitamins	TRUE
+DDI	MAJOR	PREDNISONE	IBUPROFEN	Concurrent use of CORTICOSTEROIDS and NSAIDS may result in increased risk of gastrointestinal ulcer or bleeding.	FAIR	Concurrent administration of NSAIDs with oral corticosteroids may increase the risk of gastrointestinal ulcer or bleeding. If coadministration is necessary, monitor for signs of bleeding (Prod Info DAYPRO? oral caplets, 2016; Prod Info ANSAID? oral tablets, 2016; Prod Info ARTHROTEC? oral tablets, 2016; Prod Info CELEBREX? oral capsules, 2016).		FALSE		FALSE
+DFI	MODERATE	ASCORBIC ACID/CYANOCOBALAMIN/FOLIC ACID/NIACINAMIDE/PYRIDOXINE/RIBOFLAVIN/THIAMINE/VITAMIN A/VITAMIN D/VITAMIN E	FOOD	Concurrent use of PYRIDOXINE and FOOD may result in decreased pyridoxine exposure.	EXCELLENT	Concomitant administration with food delayed and decreased pyridoxine absorption, lowering overall pyridoxine exposure. Administer pyridoxine on an empty stomach with a glass of water (Prod Info DICLEGIS? oral delayed-release tablets, 2013).		FALSE		FALSE

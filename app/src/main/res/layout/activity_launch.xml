@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrew.demo.LaunchActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="334dp"
+        android:layout_height="174dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/admera_logo_thin" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="Login"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageButton
+        android:id="@+id/btnpatient"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.491"
+        app:srcCompat="@mipmap/patient_button" />
+
+    <ImageButton
+        android:id="@+id/btndoctor"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@mipmap/doctor_button"
+        app:layout_constraintVertical_bias="0.497" />
+</android.support.constraint.ConstraintLayout>
+

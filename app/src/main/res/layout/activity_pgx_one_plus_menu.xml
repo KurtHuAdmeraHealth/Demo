@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrew.demo.PGxOnePlusMenu">
+
+    <Button
+        android:id="@+id/btnPortablePatientTable"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/portable_patient_table"
+        app:layout_constraintBottom_toTopOf="@+id/btnCurrentMedicationInformation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btnCurrentDrugInteractions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/current_drug_interactions"
+        app:layout_constraintBottom_toTopOf="@+id/btnGenotypeAndPhenotypeResults"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btnCurrentMedicationInformation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/current_medication_information"
+        app:layout_constraintBottom_toTopOf="@+id/btnCurrentDrugInteractions"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btnGenotypeAndPhenotypeResults"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/genotype_and_phenotype_results"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btnPatientSpecificDrugInformation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/patient_specific_drug_information"
+        app:layout_constraintBottom_toTopOf="@+id/btnPortablePatientTable"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btnViewFullReport"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/view_full_report"
+        app:layout_constraintBottom_toTopOf="@+id/btnPatientSpecificDrugInformation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivPGxOnePlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/btnViewFullReport"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522"
+        app:srcCompat="@mipmap/pgxone_plus_logo_final" />
+
+</android.support.constraint.ConstraintLayout>
